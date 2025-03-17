@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAINEL DE TAREFAS - HONORÁRIOS I</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Ubuntu', sans-serif;
+            background: linear-gradient(to bottom, black, #6A5ACD);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: auto;
+        }
+        h1 {
+            color: darkorange;
+            text-shadow: 0 0 10px darkorange;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 90%;
+        }
+        .panel {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            flex: 1;
+            max-width: 600px;
+            min-width: 300px;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            padding: 10px;
+            margin: 10px auto;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.05);
+        }
+        .tips {
+            color: darkorange;
+        }
+        .tips h2 {
+            color: yellow;
+        }
+        .tips strong {
+            color: white;
+        }
+    </style>
+    <script>
+        function openPopup(url) {
+            window.open(url, '_blank', 'width=800,height=600,top=' + (screen.height/2 - 300) + ',left=' + (screen.width/2 - 400));
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>PAINEL DE TAREFAS - HONORÁRIOS I</h1>
+        <div class="container">
+            <div class="panel">
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=531&palavraChave=TIPO%20DE%20CONTRATO&modulosSelecionados=3&intencaoID=0')" class="button">TIPOS DE CONTRATOS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=547&palavraChave=BANCOS&modulosSelecionados=0&intencaoID=0')" class="button">CADASTRO DE BANCOS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=10341&palavraChave=AGENCIA&modulosSelecionados=0&intencaoID=0')" class="button">CADASTRO DE AGÊNCIAS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=4492&palavraChave=LISTA%20CONTA%20FINANCEIRA&modulosSelecionados=0&intencaoID=0')" class="button">CADASTRO DE CONTAS FINANCEIRAS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=542&palavraChave=CLIENTES&modulosSelecionados=0&intencaoID=0')" class="button">CADASTRAR CLIENTES</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=551&palavraChave=CONTRATOS&modulosSelecionados=0&intencaoID=0')" class="button">CADASTRAR CONTRATOS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=553&palavraChave=FATURAR%20CLIENTES&modulosSelecionados=0&intencaoID=0')" class="button">FATURAR CLIENTES</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=648&palavraChave=RECEBIMENTO&modulosSelecionados=0&intencaoID=0')" class="button">RECEBIMENTO DE HONORÁRIOS (MANUALMENTE)</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=539&palavraChave=EVENTOS&modulosSelecionados=0&intencaoID=0')" class="button">CONCEITO DE EVENTOS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=552&palavraChave=LAN%C3%87A%20EVENTO&modulosSelecionados=0&intencaoID=0')" class="button">LANÇAR EVENTOS (COBRANÇAS EXTRA HONORÁRIOS)</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=3336&palavraChave=BOLETO&modulosSelecionados=0&intencaoID=0')" class="button">GERAR BOLETOS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=948&palavraChave=COBRAN%C3%87A%20REGISTRADA&modulosSelecionados=0&intencaoID=0')" class="button">GERAR COBRANÇA REGISTRADA</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=4506&palavraChave=IMPORTA%20BOLETO&modulosSelecionados=0&intencaoID=0')" class="button">IMPORTAR RETORNO DE BOLETOS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=3340&palavraChave=DOCUMENTO%20DE%20COBRAN%C3%87A&modulosSelecionados=0&intencaoID=0')" class="button">GERAR DOCUMENTOS DE COBRANÇA</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=8412&palavraChave=RPS&modulosSelecionados=0&intencaoID=0')" class="button">GERAR RPS - CONVERTER EM NFS-E</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=632&palavraChave=REAJUSTE&modulosSelecionados=0&intencaoID=0')" class="button">REAJUSTAR CONTRATOS</a>
+                <a href="javascript:void(0);" onclick="openPopup('https://suporte.dominioatendimento.com/central/faces/solucao.html?codigo=3328&palavraChave=RENEGOCIAR&modulosSelecionados=0&intencaoID=0')" class="button">RENEGOCIAR CONTRATOS</a>
+            </div>
+            <div class="panel tips">
+                <h2>DICAS DE IMPLANTAÇÃO</h2>
+                <p><strong>SEMPRE QUE ENTRAR UM NOVO CLIENTE</strong></p>
+                <ul>
+                    <li>cadastre o cliente em //arquivos/clientes</li>
+                    <li>cadastre o contrato em //arquivos/contratos</li>
+                </ul>
+                <p><strong>OPERACIONAL</strong></p>
+                <ul>
+                    <li>realize o lançamento de eventos (tela f3)</li>
+                    <li>fature os clientes em //processos/faturamento</li>
+                </ul>
+                <p><strong>GERE OS BOLETOS</strong></p>
+                <ul>
+                    <li>gerar em //processos/boletos/emissão</li>
+                    <li>gere o arquivo de remessa em //utilitários/cobrança registrada</li>
+                    <li>importe o arquivo de retorno em //utilitários/importação de boletos recebidos</li>
+                </ul>
+                <p><strong>GERE OS DOCUMENTOS DE COBRANÇA</strong></p>
+                <ul>
+                    <li>gerar em //processos/documentos de cobrança/emissão</li>
+                </ul>
+                <p><strong>EFETUE OS RECEBIMENTOS</strong></p>
+                <ul>
+                    <li>receber em //processos/contas a receber/recebimentos/individual ou em grupo</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
